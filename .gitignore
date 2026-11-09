@@ -234,3 +234,7 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 .venv/
+
+# local-only notes (not on GitHub)
+PLAN.md
+CLAUDE.md
