@@ -218,3 +218,19 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- project-specific ---
+# data & outputs (large, not versioned)
+data/raw/
+data/processed/
+runs/
+*.nii
+*.nii.gz
+*.npz
+*.pt
+*.ckpt
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
