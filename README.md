@@ -1,8 +1,6 @@
 # Multi-Scale and Directional Frequency-Guided Motion Artifact Reduction in Knee MRI
 
-Digital Image Processing course project — Simran Singh Sandral (2026701034), Aashish Anand (2026702009), IIIT Hyderabad.
-
-**Question:** Can explicit multi-scale and directional image representations (gradients, Laplacian pyramid bands, Gabor responses) help a lightweight residual network suppress real MRI motion artifacts while preserving genuine high-frequency anatomy?
+Can explicit multi-scale and directional image representations (gradients, Laplacian pyramid bands, Gabor responses) help a lightweight residual network suppress real MRI motion artifacts while preserving genuine high-frequency anatomy?
 
 - Dataset: [KMAR-50K](https://doi.org/10.1038/s41597-025-05439-1) — paired motion-corrupted / rescanned knee MRI (Xi et al., Sci Data 2025). Download: Mendeley [part 1](https://data.mendeley.com/datasets/xw7mrg7ntg), [part 2](https://data.mendeley.com/datasets/95w9f5tzz8).
 
