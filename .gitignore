@@ -238,3 +238,52 @@ __pycache__/
 # local-only notes (not on GitHub)
 PLAN.md
 CLAUDE.md
+__pycache__/
+*.pyc
+.venv/
+.env
+.vscode-server/
+.cache/
+
+# Medical images and datasets
+*.nii
+*.nii.gz
+*.dcm
+*.zip
+*.tar.gz
+
+# Checkpoints and large arrays
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.npz
+
+# Generated outputs
+outputs/
+logs/
+# KMAR-50K datasets
+KMAR-50K/
+KMAR-50K-part2/
+
+# Model checkpoints
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+
+# Python temporary files
+__pycache__/
+*.pyc
+*.bak
+
+# Generated outputs
+outputs/
+logs/
+
+# Large medical data
+*.nii
+*.nii.gz
+*.dcm
+*.npy
+*.npzmanifests/dataset_manifest.csv
