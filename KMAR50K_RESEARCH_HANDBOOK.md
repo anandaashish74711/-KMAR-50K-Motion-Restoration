@@ -3,7 +3,26 @@
 **Project:** Multi-Scale and Directional Frequency-Guided Motion Artifact Reduction in Knee MRI  
 **Documentation snapshot:** 10 November 2026  
 **Status:** Core engineering implemented; preliminary controlled experiments completed; matched full-epoch frequency experiment and rigorous research validation pending  
-**Repository:** https://github.com/Simran32909/knee-mri-motion-dip  
+**Repository:**  https://github.com/anandaashish74711/-KMAR-50K-Motion-Restoration
+**Default branch observed:** `origin/main`  
+**Feature branch:** `feature/kmar50k-motion-restoration`.
+
+Sequence:
+
+1. `/home2/aashish.a/kmar50k_code` was not initially a Git repository.
+2. Initialized Git and configured `origin` to the target HTTPS repository.
+3. `git fetch origin` succeeded and discovered `origin/main`.
+4. Initial `git switch -c ... origin/main` was blocked by an existing untracked `.gitignore`; the local file was backed up and its ignore rules appended after switching.
+5. Created `feature/kmar50k-motion-restoration` from `origin/main`.
+6. Staged the source scripts, model/data modules, and `.gitignore`.
+7. Unstaged `manifests/dataset_manifest.csv` because it contained cluster-specific absolute paths and potentially sensitive identifiers; added it to `.gitignore`.
+8. Excluded raw MRI volumes, checkpoints, temporary files, and generated outputs.
+9. `git push -u origin feature/kmar50k-motion-restoration` **succeeded**; remote branch created and upstream tracking set. The remote `main` branch was **not changed**.
+
+**Branch URL:** https://github.com/Simran32909/knee-mri-motion-dip/tree/feature/kmar50k-motion-restoration  
+**Pull request URL:** https://github.com/Simran32909/knee-mri-motion-dip/pull/new/feature/kmar50k-motion-restoration
+
+**Unresolved:** This document itself has not yet been committed. The repository lacks a portable manifest generator/configurable dataset root, verified dependency lockfile, complete experiment configs, and a clean reproducibility README. Check `git status` before any future commit.  
 **Working branch:** `feature/kmar50k-motion-restoration`  
 **Scope:** This document records the work completed and decisions discussed through the first successful GitHub push. It is a *historical and technical record*, not a claim that all intended experiments have been run.
 
