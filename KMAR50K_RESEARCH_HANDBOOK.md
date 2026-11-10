@@ -630,7 +630,7 @@ Running `python -m pip cache purge` removed **758 files (~4,926.4 MB)** and **1,
 
 ## 14. Git and repository history
 
-**Target repository:** https://github.com/Simran32909/knee-mri-motion-dip  
+**Target repository:** https://github.com/anandaashish74711/-KMAR-50K-Motion-Restoration
 **Default branch observed:** `origin/main`  
 **Feature branch:** `feature/kmar50k-motion-restoration`.
 
@@ -646,10 +646,6 @@ Sequence:
 8. Excluded raw MRI volumes, checkpoints, temporary files, and generated outputs.
 9. `git push -u origin feature/kmar50k-motion-restoration` **succeeded**; remote branch created and upstream tracking set. The remote `main` branch was **not changed**.
 
-**Branch URL:** https://github.com/Simran32909/knee-mri-motion-dip/tree/feature/kmar50k-motion-restoration  
-**Pull request URL:** https://github.com/Simran32909/knee-mri-motion-dip/pull/new/feature/kmar50k-motion-restoration
-
-**Unresolved:** This document itself has not yet been committed. The repository lacks a portable manifest generator/configurable dataset root, verified dependency lockfile, complete experiment configs, and a clean reproducibility README. Check `git status` before any future commit.
 
 ---
 
